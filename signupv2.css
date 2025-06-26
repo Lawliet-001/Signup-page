@@ -1,7 +1,11 @@
 
 @font-face {
   font-family: "Norse Bold";
+<<<<<<< HEAD:signupv2.css
   src: url("images/Norse-Bold.otf") format("opentype"); 
+=======
+  src: url("images/Norse-Bold.otf") format("opentype");
+>>>>>>> 8726ffd (minor tweaks):signup.css
   font-weight: normal;
   font-style: normal;
 }
@@ -59,7 +63,11 @@ a{
     overflow:hidden;
     min-height:100vh;
     width:40%;
+<<<<<<< HEAD:signupv2.css
     background-image:url("images/background.jpg");
+=======
+    background-image:url("/images/background.avif");
+>>>>>>> 8726ffd (minor tweaks):signup.css
     background-size: cover; 
 }
 form{
@@ -103,4 +111,8 @@ legend{
     font-size:30px;
     font-weight:bolder;
     font-family:"Lato";
+<<<<<<< HEAD:signupv2.css
 }
+=======
+}
+>>>>>>> 8726ffd (minor tweaks):signup.css
