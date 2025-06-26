@@ -1,10 +1,17 @@
 
+@font-face {
+  font-family: "Norse Bold";
+  src: url("images/Norse-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 body{
     margin:0px;
     display:flex;
 }
 .cont{
     display:flex;
+    width:60vw;
     flex-direction: row;
     box-shadow: 4px 1px 10px rgba(0, 0, 0, 0.25);
     justify-content:space-evenly;
@@ -48,8 +55,10 @@ a{
      text-decoration: none;;
 }
 .col1{
+    display:flex;
+    overflow:hidden;
     min-height:100vh;
-    width:50%;
+    width:40%;
     background-image:url("/images/background.avif");
     background-size: cover; 
 }
@@ -71,11 +80,13 @@ form{
 #logotxt{
     color:gold;
     font-size: 80px;
+    font-family:"Norse Bold";
     margin: auto;
 }
 .quote h1{
     text-align:center;
     margin:20px;
+     font-family:"Lato";
 }
 .quote span{
     margin-left:390px;
@@ -84,4 +95,12 @@ form{
 }
 #pun{
     display:none;
+}
+.col2{
+    width: 50%;
+}
+legend{
+    font-size:30px;
+    font-weight:bolder;
+    font-family:"Lato";
 }
