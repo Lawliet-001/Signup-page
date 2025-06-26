@@ -8,11 +8,17 @@
 </head>
 <body>
 
-    <div class="img">
-       m&ms are overrated
+    <div class="col1">
+       <div class="logoholder">
+         <img id="supe" src="/images/superhero.png">
+         <span id="logotxt">SignUpHero</span>
+       </div>
+       
     </div>
-   <form>
-    <legend>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsa tempora deserunt reprehenderit, sunt aspe
+    <div class="col2">
+            <form id="loginForm">
+    <legend>This doesn't sign you up to any website, nor is the data used or transferred elsewhere, since this website doesn't have any back-end functionality anyway. Still, don't input your real
+         sensitive credentials.
 
     </legend>
     <br>
@@ -23,20 +29,20 @@
 
         </div>
           <div class="mini">
-             <label for="first">FIRST NAME</label> <br>
+             <label for="first" minlength="3" maxlength="20">FIRST NAME</label> <br>
             <input id="first" type="text" name="first">
         </div>
        
         <br> <br>
          <div class="mini">
-                <label for="last">LAST NAME</label> <br>
+                <label for="last" minlength="3" maxlength="20">LAST NAME</label> <br>
                 <input id="last" type="text" name="last">
         </div>
            
 
             <br> <br>
              <div class="mini">
-             <label for="email">EMAIL</label> <br>
+             <label for="email" minlength="3">EMAIL</label> <br>
              <input id="email" type="email" name="email">
 
             </div>
@@ -63,18 +69,24 @@
                 <input id="cpw" type="password" name="cpw">
             </div>
             
-        </div>
-
-        
-            
-            
+        </div> 
     </div>
     <br> <br>
-    <button type="submit" class="btn">Create Account</button>
-    <span>Already have an account?</span> <a href=""> Login</a>
-    
+    <button id="btn">Create Account</button>
+    <span>Already have an account?</span> <a href="" id="login"> Log in</a>
    </form>
+   <br>  <br>  <br>
+   <div class="quote">
+        <h1>"The greatest among men, women, and nonbinaries — yeah, it's not 500BC anymore — are
+             those who complete and endure the Trial of the Sign-Up."</h1>
+    <span>Sun Tzu, The Art of War</span>
+   </div>
+   <img src="/images/PUN.png" id="pun">
+   <h1 id="congrats"></h1>
+   
+    </div>
+   
 
-    <script src="Java.js"></script>
+    <script src="signup.js"></script>
 </body>
 </html>

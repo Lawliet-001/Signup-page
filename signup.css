@@ -6,14 +6,16 @@ body{
 .cont{
     display:flex;
     flex-direction: row;
-    
+    box-shadow: 4px 1px 10px rgba(0, 0, 0, 0.25);
     justify-content:space-evenly;
+    
 }
 input{
     width:170px;
     height:16px;
     border-radius:4px;
     border: 1px solid #E5E7EB;
+       margin-bottom:20px;
 }
 .mini label{
     font-size:12px;
@@ -32,6 +34,7 @@ button{
     height:36px;
     width:170px;
     border-radius:3px;
+    margin-left:50px;
     color:white;
     border:none;
 }
@@ -44,14 +47,41 @@ a{
      font-weight:bold;
      text-decoration: none;;
 }
-.img{
+.col1{
     min-height:100vh;
     width:50%;
     background-image:url("/images/background.avif");
     background-size: cover; 
 }
 form{
-    padding:10px
+    padding:10px;
 }
-
-
+.logoholder{
+   background-color: rgba(0, 0, 0, 0.5);
+    width:100%;
+    height:150px;
+    position:relative;
+    top:200px;
+    display:flex;
+}
+#supe{
+    max-height:100%;
+   margin-left:70px;
+}
+#logotxt{
+    color:gold;
+    font-size: 80px;
+    margin: auto;
+}
+.quote h1{
+    text-align:center;
+    margin:20px;
+}
+.quote span{
+    margin-left:390px;
+    font-size:20px;
+    font-style:italic;
+}
+#pun{
+    display:none;
+}
