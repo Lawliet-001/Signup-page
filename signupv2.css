@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: "Norse Bold";
-  
+  src: url("images/Norse-Bold.otf") format("opentype"); 
   font-weight: normal;
   font-style: normal;
 }
